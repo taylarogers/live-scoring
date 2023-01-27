@@ -14,13 +14,6 @@ body {
     background-color: #0067AC;
 }
 
-h1 {
-    color: white;
-    font-family: 'Jura', sans-serif;
-    margin-top: 17px;
-    margin-bottom: 17px;
-}
-
 .secondary-header {
     display: flex;
     list-style: none;
@@ -32,9 +25,32 @@ h1 {
     background-color: #71B4E1;
 }
 
+.footer {
+    display: flex;
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #CDCDCD;
+}
+
+h1 {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
 h4 {
     color: white;
     font-family: 'Jura', sans-serif;
     margin-top: 13px;
     margin-bottom: 13px;
+}
+
+.credits {
+    margin: 15px 20px;
 }
