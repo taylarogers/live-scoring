@@ -1,0 +1,40 @@
+body {
+    margin: auto 0;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.main-header {
+    display: flex;
+    list-style: none;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #0067AC;
+}
+
+h1 {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.secondary-header {
+    display: flex;
+    list-style: none;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #71B4E1;
+}
+
+h4 {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
