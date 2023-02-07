@@ -10,6 +10,14 @@ body {
     width: 35rem;
 }
 
+.block-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 0.8em;
@@ -18,28 +26,34 @@ body {
     .block {
         width: 25rem;
     }
+
+    .block-wrapper{
+        padding-top: 80px;
+    }
 }
 
-.main-header {
+.header {
     display: flex;
+    flex-direction: column;
     list-style: none;
     font-size: 0.9em;
     margin: 0;
     padding: 0;
     align-items: center;
     justify-content: center;
-    background-color: #0067AC;
+    background-image: linear-gradient(to bottom, #00B2FF, white);
+    opacity: .95;
 }
 
 .secondary-header {
     display: flex;
     list-style: none;
-    font-size: 0.8em;
+    font-size: 1em;
     margin: 0;
     padding: 0;
     align-items: center;
     justify-content: center;
-    background-color: #71B4E1;
+    margin-bottom: 25px;
 }
 
 .footer {
@@ -51,12 +65,19 @@ body {
     padding: 0;
     align-items: center;
     justify-content: center;
-    background-color: #CDCDCD;
+    background: #00B2FF;
+    opacity: .3;
 }
 
 .breaker {
     height: 40px;
 }
+
+.stick-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 .stick-bottom {
     position: fixed;
@@ -64,18 +85,13 @@ body {
     width: 100%;
 }
 
-.block-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
+
 
 h1 {
     color: white;
     font-family: 'Jura', sans-serif;
-    margin-top: 17px;
-    margin-bottom: 17px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 h2 {
