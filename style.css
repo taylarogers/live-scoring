@@ -3,9 +3,20 @@ body {
     font-family: 'Hind Vadodara', sans-serif;
 }
 
+.block {
+    border-radius:4px;
+    border:1px solid rgb(75, 75, 75);
+    margin: 15px 15px;
+    width: 35rem;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 0.8em;
+    }
+
+    .block {
+        width: 25rem;
     }
 }
 
@@ -43,10 +54,21 @@ body {
     background-color: #CDCDCD;
 }
 
-.block {
-    border-radius:4px;
-    border:1px solid rgb(75, 75, 75);
-    margin: 15px 15px;
+.breaker {
+    height: 40px;
+}
+
+.stick-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.block-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -59,6 +81,8 @@ h1 {
 h2 {
     font-size: 1.2em;
     font-family: 'Jura', sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 h4 {
