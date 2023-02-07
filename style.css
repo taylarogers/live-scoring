@@ -7,7 +7,14 @@ body {
     border-radius:4px;
     border:1px solid rgb(75, 75, 75);
     margin: 15px 15px;
-    width: 35rem;
+    width: 30rem;
+}
+
+.scoring-block {
+    border-radius:4px;
+    border:1px solid rgb(75, 75, 75);
+    margin: 15px 15px;
+    width: 40rem;
 }
 
 .block-wrapper {
@@ -27,6 +34,10 @@ body {
         width: 25rem;
     }
 
+    .scoring-block {
+        width: 25rem;
+    }
+
     .block-wrapper{
         padding-top: 80px;
     }
@@ -36,7 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     list-style: none;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin: 0;
     padding: 0;
     align-items: center;
@@ -48,7 +59,7 @@ body {
 .secondary-header {
     display: flex;
     list-style: none;
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 0;
     padding: 0;
     align-items: center;
@@ -106,6 +117,7 @@ h4 {
     font-family: 'Jura', sans-serif;
     margin-top: 13px;
     margin-bottom: 13px;
+    padding: 0px 15px;
 }
 
 
@@ -144,4 +156,8 @@ h4 {
 
 .push {
     margin-left: auto;
+}
+
+img {
+    cursor:pointer;
 }
