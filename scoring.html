@@ -10,34 +10,61 @@
     <body>
         <div class="header stick-top">
             <h1> Gonubie Sixes Live Scores </h1>
-            <h4 class="secondary-header"> Scoring System </h3>
+            <h4 class="secondary-header"> Scoring System </h4>
         </div>
 
-        <div class="block-wrapper">
+        <div class="score-block-wrapper">
+            <p class="greyed-out"> Authorised scorers can update scoring information below. </p>
+            
+            <div class="fix-upper">
+                <p class="greyed-out fix-upper"> Password: <input type="password" class="greyed-out"> </p>
+            </div>
+
             <div class="scoring-block">
-                <h2 class="inner"> Gonubie </h2>
-                <div class="one inner">
-                    <p> Batting Team: </p>
-                    <p class="push"> Target: </p>
-                </div>
-                <div class="two inner">
-                    <p class="fix-upper"> Bowling Team: </p>
-                </div>
-                <div class="three inner">
-                    <p class="fix-lower"> Total: </p>
-                </div>
-                <div class="four inner">
-                    <p> Wickets: </p>
-                    <p class="push"> Balls Remaining: </p>
-                </div>
-                <div class="five inner">
-                    <p class="fix-upper"> Batsman: </p>
-                    <p class=" fix-upper push"> Runs: </p>
-                </div>
-                <div class="six inner">
-                    <p class="fix-upper"> Batsman: </p>
-                    <p class="fix-upper push"> Runs: </p>
-                </div>
+                <form>
+                    <div class="centered fix-lower inner">
+                        <p> 
+                            Field: <select> 
+                                <option value=”Gonubie”> Gonubie </option> 
+                                <option value="Bohs"> Bohs </option>
+                                <option value="Old Boys"> Old Boys </option>
+                                <option value=”Hams”> Hams </option>
+                            </select> 
+                        </p>
+                    </div>  
+
+                    <div class="one inner">
+                        <p class="fix-upper"> Bowling Team: <input type="text"> </p>
+                        <p class="push fix-upper"> Batting Team: <input type="text"> </p>
+                    </div>
+
+                    <div class="inner">
+                        <p class="fix-upper"> Target: <input type="number"> </p>
+                    </div>
+
+                    <div class="one inner">
+                        <p class="fix-upper"> Total: <input type="number"> </p>
+                        <p class="push fix-upper"> Wickets: <input type="number"> </p>
+                    </div>
+
+                    <div class="inner">
+                        <p class="fix-upper"> Balls Remaining: <input type="number"> </p>
+                    </div>
+
+                    <div class="one inner">
+                        <p class="fix-upper"> Batsman: <input type="type"> </p>
+                        <p class="push fix-upper"> Runs: <input type="number"> </p>
+                    </div>
+
+                    <div class="one inner">
+                        <p class="fix-upper"> Batsman: <input type="type"> </p>
+                        <p class="push fix-upper"> Runs: <input type="number"> </p>
+                    </div>
+
+                    <div class="centered inner">
+                        <button type="button"> Update </button>
+                    </div>
+                </form>
             </div>
 
         <div class="breaker"></div>
