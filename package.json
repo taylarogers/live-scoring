@@ -2,7 +2,7 @@
   "name": "live-scoring",
   "version": "1.0.0",
   "description": "This is a live scoring web application able to display and capture scores.",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
