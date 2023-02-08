@@ -1,0 +1,22 @@
+{
+  "name": "live-scoring",
+  "version": "1.0.0",
+  "description": "This is a live scoring web application able to display and capture scores.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylarogers/live-scoring.git"
+  },
+  "author": "Tayla Rogers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taylarogers/live-scoring/issues"
+  },
+  "homepage": "https://github.com/taylarogers/live-scoring#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
