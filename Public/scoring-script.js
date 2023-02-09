@@ -11,7 +11,7 @@ function checkPassword() {
 }
 
 // Update scores
-function update() {
+async function update() {
     if (checkPassword() === true) {
         console.log("correct password");
 
@@ -32,12 +32,14 @@ function update() {
         const data = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(total, wickets)
+            body: JSON.stringify(scores)
         };
 
         console.log('loaded');
 
-        fetch('/api', data);
+        const response = await fetch('/api', data);
+        const returnedInfo = await response.json();
+        console.log(returnedInfo);
 
         console.log('fetched');
     }
