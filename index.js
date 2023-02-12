@@ -1,4 +1,6 @@
 const express = require('express');
+const Datastore = require('nedb');
+const { SocketAddress } = require('net');
 //const path = require('path');
 const app = express();
 
@@ -7,6 +9,9 @@ app.listen(3000, () => console.log('listening at port 3000'));
 //app.use(express.static(path.join(__dirname, '/Public')))
 app.use(express.static('Public'));
 app.use(express.json({ limit: '5mb' }));
+
+const database = new Datastore('scores.db');
+database.loadDatabase();
 
 // Information to be saved to the database
 app.post('/api', (request, response) => {
