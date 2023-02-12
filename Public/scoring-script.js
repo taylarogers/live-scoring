@@ -16,7 +16,7 @@ async function update() {
         console.log("correct password");
 
         // Retrieve all information
-        const field = document.getElementById("Field").value;
+        const field = document.getElementById("Field");
         const bowlingTeam = document.getElementById("BowlingTeam").value;
         const battingTeam = document.getElementById("BattingTeam").value;
         const target = document.getElementById("Target").value;
@@ -28,7 +28,10 @@ async function update() {
         const batsman2 = document.getElementById("Batsman2").value;
         const runs2 = document.getElementById("Runs2").value;
 
-        const scores = {total, wickets};
+        const _id = field.options[field.selectedIndex].text;
+        console.log(_id);
+
+        const scores = {_id, battingTeam, bowlingTeam, target, total, wickets, ballsRemaining, batsman1, runs1, batsman2, runs2};
         const data = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

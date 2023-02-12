@@ -17,9 +17,11 @@ database.loadDatabase();
 app.post('/api', (request, response) => {
     console.log('I got a request!');
     console.log(request.body);
+
+    const data = request.body;
+    database.insert(data);
+
     response.json({
         status: 'success',
-        theTotal: request.body.total,
-        numWickets: request.body.wickets
     });
 });
