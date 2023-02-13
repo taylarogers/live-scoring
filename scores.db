@@ -1,11 +1,1 @@
-{"battingTeam":"Team 1","bowlingTeam":"Team 2","target":"328","total":"110","wickets":"5","ballsRemaining":"60","batsman1":"Adam","runs1":"20","batsman2":"Tayla","runs2":"60","_id":"ce3nZjX6GX0MWX4s"}
-{"name":"tayla","score":"a million","description":"the best","_id":"gonubie"}
-{"total":"7","wickets":"5","_id":"mg48uGZCRKkdFejf"}
-{"name":"tayla","score":"a million","description":"the best","_id":"yXWcr7D0fuo0gdmR"}
-{"battingTeam":"Winning Team","bowlingTeam":"Losing Team","target":"400","total":"222","wickets":"2","ballsRemaining":"104","batsman1":"Batsman 1","runs1":"60","batsman2":"Batsman 2","runs2":"70","_id":"dnuwnrDpw5Io0T73"}
-{"battingTeam":"Winning Team","bowlingTeam":"Losing Team","target":"400","total":"222","wickets":"2","ballsRemaining":"104","batsman1":"Batsman 1","runs1":"60","batsman2":"Batsman 2","runs2":"70","_id":"ksm3V5sj30olQc7z"}
-{"battingTeam":"Winning Team","bowlingTeam":"Losing Team","target":"400","total":"222","wickets":"2","ballsRemaining":"104","batsman1":"Batsman 1","runs1":"60","batsman2":"Batsman 2","runs2":"70","_id":"hATpYfnnAa21A8xh"}
-{"battingTeam":"Winning Team","bowlingTeam":"Losing Team","target":"400","total":"222","wickets":"2","ballsRemaining":"104","batsman1":"Batsman 1","runs1":"60","batsman2":"Batsman 2","runs2":"70","_id":"kT0fQDnbwsOPU52q"}
-{"battingTeam":"Winning Team","bowlingTeam":"Losing Team","target":"400","total":"222","wickets":"2","ballsRemaining":"104","batsman1":"Batsman 1","runs1":"60","batsman2":"Batsman 2","runs2":"70","_id":"e7dAJdUZCuvKfY31"}
-{"_id":"”Gonubie”","battingTeam":"ooo","bowlingTeam":"gjb","target":"-1","total":"-1","wickets":"1","ballsRemaining":"1","batsman1":"u","runs1":"5","batsman2":"i","runs2":"7"}
 {"_id":"Gonubie","battingTeam":"bat","bowlingTeam":"bow","target":"46","total":"1","wickets":"5","ballsRemaining":"2","batsman1":"b1","runs1":"22","batsman2":"b2","runs2":"3"}

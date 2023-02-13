@@ -25,3 +25,15 @@ app.post('/api', (request, response) => {
         status: 'success',
     });
 });
+
+// Retrieve information from the database
+app.get( '/api', (request, response) => {
+    database.find({}, function (err, data) {
+        if (err) {
+            response.end();
+            return;
+        }
+
+        response.json(data);
+      });
+});
