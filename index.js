@@ -5,7 +5,7 @@ const { SocketAddress } = require('net');
 const app = express();
 
 // Host the data on a web server
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log('listening'));
 //app.use(express.static(path.join(__dirname, '/Public')))
 app.use(express.static('Public'));
