@@ -1,14 +1,13 @@
 const express = require('express');
 const Datastore = require('nedb');
 const { SocketAddress } = require('net');
-//const path = require('path');
+const path = require('path');
 const app = express();
 
 // Host the data on a web server
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log('listening'));
-//app.use(express.static(path.join(__dirname, '/Public')))
-app.use(express.static('Public'));
+app.use(express.static(path.join(__dirname, '/Public')))
 app.use(express.json({ limit: '5mb' }));
 
 const database = new Datastore('scores.db');
