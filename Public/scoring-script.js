@@ -29,7 +29,6 @@ async function update() {
         const runs2 = document.getElementById("Runs2").value;
 
         const _id = field.options[field.selectedIndex].text;
-        console.log(_id);
 
         const scores = {_id, battingTeam, bowlingTeam, target, total, wickets, ballsRemaining, batsman1, runs1, batsman2, runs2};
         const data = {
