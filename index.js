@@ -5,7 +5,8 @@ const { SocketAddress } = require('net');
 const app = express();
 
 // Host the data on a web server
-app.listen(3000, () => console.log('listening at port 3000'));
+const port = process.env.PORT;
+app.listen(port, () => console.log('listening'));
 //app.use(express.static(path.join(__dirname, '/Public')))
 app.use(express.static('Public'));
 app.use(express.json({ limit: '5mb' }));
