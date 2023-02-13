@@ -17,9 +17,12 @@ database.loadDatabase();
 app.post('/api', (request, response) => {
     console.log('I got a request!');
     console.log(request.body);
-
     const data = request.body;
-    database.insert(data);
+
+    let updateID = {_id: data._id};
+
+    // Update value, or insert new value
+    database.update(updateID, data, {upsert: true});
 
     response.json({
         status: 'success',

@@ -123,4 +123,11 @@ async function getData() {
     }
 }
 
+function refresh() {
+    getData();
+    console.log("refreshed");
+}
+
+setInterval(refresh, 5000);
+
 getData();
