@@ -8,7 +8,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 100px;
     width: 100%;
 }
 
@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .smaller-text {
@@ -101,15 +101,15 @@ h4 {
 
 @media only screen and (max-width: 1000px) {
     body {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .block-wrapper{
-        padding-top: 80px;
+        padding-top: 110px;
     }
 
     .score-block-wrapper{
-        padding-top: 80px;
+        padding-top: 110px;
     }
 
     .block {
@@ -133,15 +133,15 @@ h4 {
     }
 
     .header {
-        font-size: 1.3em;
-    }
-
-    .secondary-header {
         font-size: 1.5em;
     }
 
+    .secondary-header {
+        font-size: 1.7em;
+    }
+
     .footer {
-        font-size: 1.4em;
+        font-size: 1.7em;
     }
 }
 
