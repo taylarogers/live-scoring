@@ -151,6 +151,11 @@ h4 {
     h4 {
         font-size: x-large;
     }
+
+    img {
+        height: 40px;
+        width: 40px;
+    }
 }
 
 .breaker {
