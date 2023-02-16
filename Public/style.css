@@ -129,15 +129,19 @@ h4 {
     }
 
     p {
-        font-size: large;
+        font-size: larger;
     }
     
     h1 {
         font-size: xx-large;
     }
 
+    h2 {
+        font-size: larger;
+    }
+
     h4 {
-        font-size: large;
+        font-size: larger;
     }
 }
 
