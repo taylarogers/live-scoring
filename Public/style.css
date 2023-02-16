@@ -131,18 +131,6 @@ h4 {
     input[type="number"] {
         width: 100px;
     }
-
-    .header {
-        font-size: 1.2em;
-    }
-
-    .secondary-header {
-        font-size: 1.4em;
-    }
-
-    .footer {
-        font-size: 1.4em;
-    }
 }
 
 .breaker {
