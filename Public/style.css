@@ -40,17 +40,9 @@ body {
     font-size: 0.8em;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     body {
         font-size: 0.8em;
-    }
-
-    .block {
-        width: 25rem;
-    }
-
-    .scoring-block {
-        width: 25rem;
     }
 
     .block-wrapper{
@@ -59,6 +51,14 @@ body {
 
     .score-block-wrapper{
         padding-top: 80px;
+    }
+
+    .block {
+        width: 90%;
+    }
+
+    .scoring-block {
+        width: 90%;
     }
 
     .smaller text {
@@ -71,14 +71,6 @@ body {
 
     input[type="number"] {
         width: 100px;
-    }
-
-    .block {
-        width: 90%;
-    }
-
-    .scoring-block {
-        width: 90%;
     }
 }
 
