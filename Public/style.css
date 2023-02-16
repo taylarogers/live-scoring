@@ -38,6 +38,7 @@ body {
     font-size: 0.8em;
 }
 
+/*
 @media only screen and (max-width: 600px) {
     body {
         font-size: 0.8em;
@@ -70,7 +71,7 @@ body {
     input[type="number"] {
         width: 100px;
     }
-}
+} */
 
 .header {
     display: flex;
