@@ -40,40 +40,6 @@ body {
     font-size: 0.8em;
 }
 
-@media only screen and (max-width: 1000px) {
-    body {
-        font-size: 0.8em;
-    }
-
-    .block-wrapper{
-        padding-top: 80px;
-    }
-
-    .score-block-wrapper{
-        padding-top: 80px;
-    }
-
-    .block {
-        width: 90%;
-    }
-
-    .scoring-block {
-        width: 90%;
-    }
-
-    .smaller text {
-        font-size: 2em;
-    }
-
-    input[type="text"] {
-        width: 150px;
-    }
-
-    input[type="number"] {
-        width: 100px;
-    }
-}
-
 .header {
     display: flex;
     flex-direction: column;
@@ -111,22 +77,6 @@ body {
     opacity: .3;
 }
 
-.breaker {
-    height: 40px;
-}
-
-.stick-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-.stick-bottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 h1 {
     color: white;
     font-family: 'Jura', sans-serif;
@@ -147,6 +97,68 @@ h4 {
     margin-top: 13px;
     margin-bottom: 13px;
     padding: 0px 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    .block-wrapper{
+        padding-top: 80px;
+    }
+
+    .score-block-wrapper{
+        padding-top: 80px;
+    }
+
+    .block {
+        width: 90%;
+    }
+
+    .scoring-block {
+        width: 90%;
+    }
+
+    .smaller text {
+        font-size: 2em;
+    }
+
+    input[type="text"] {
+        width: 150px;
+    }
+
+    input[type="number"] {
+        width: 100px;
+    }
+
+    .header {
+        font-size: 1.1em;
+    }
+
+    .secondary-header {
+        font-size: 1.3em;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+}
+
+.breaker {
+    height: 40px;
+}
+
+.stick-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.stick-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .greyed-out {
@@ -179,6 +191,14 @@ h4 {
 }
 
 .one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+}
+
+.three {
     display: flex;
 }
 
