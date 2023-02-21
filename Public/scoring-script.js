@@ -44,9 +44,12 @@ async function update() {
         console.log(returnedInfo);
 
         console.log('fetched');
+
+        alert('Successful update.');
     }
     else {
         console.log("incorrect password");
+        alert('Unsuccessful update - incorrect password.');
     }
 }
 
