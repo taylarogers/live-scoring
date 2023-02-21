@@ -159,7 +159,7 @@ h4 {
     }
 
     h4 {
-        font-size: x-large;
+        font-size: 17px;
     }
 
     img {
@@ -175,7 +175,7 @@ h4 {
 
     #UpdateButton {
         height: 40px;
-        width: 120px;
+        width: 150px;
         font-size: 25px;
     }
 }
