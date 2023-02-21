@@ -1,4 +1,4 @@
-{"_id":"Bohs","battingTeam":"live laugh love","bowlingTeam":"you stink bo","target":"55","total":"6","wickets":"10","ballsRemaining":"8","batsman1":"yolo","runs1":"20","batsman2":"ate","runs2":"3"}
-{"_id":"Gonubie","battingTeam":"bat","bowlingTeam":"bow","target":"46","total":"1","wickets":"5","ballsRemaining":"2","batsman1":"b1","runs1":"22","batsman2":"b2","runs2":"3"}
-{"_id":"Hams","battingTeam":"ham is bad","bowlingTeam":"ham is good","target":"696","total":"420","wickets":"5","ballsRemaining":"80","batsman1":"good guy","runs1":"5","batsman2":"bad guy","runs2":"20"}
-{"_id":"Old Boys","battingTeam":"bingo","bowlingTeam":"lola's team","target":"560","total":"400","wickets":"5","ballsRemaining":"63","batsman1":"lola","runs1":"30","batsman2":"frank","runs2":"22"}
+{"_id":"Bohs","battingTeam":"Bohs Batting","bowlingTeam":"Bohs Bowling","target":"330","total":"88","wickets":"3","ballsRemaining":"24","batsman1":"Batsman Bohs 1","runs1":"3","batsman2":"Batsman Bohs 2","runs2":"12"}
+{"_id":"Gonubie","battingTeam":"Gonubie Batting","bowlingTeam":"Gonubie Bowling","target":"46","total":"1","wickets":"5","ballsRemaining":"2","batsman1":"Batsman Gonubie 1","runs1":"22","batsman2":"Batsman Hams 2","runs2":"3"}
+{"_id":"Hams","battingTeam":"Hams Batting","bowlingTeam":"Hams Bowling","target":"330","total":"100","wickets":"5","ballsRemaining":"80","batsman1":"Batsman Hams 1","runs1":"5","batsman2":"Batsman Hams 2","runs2":"20"}
+{"_id":"Old Boys","battingTeam":"Old Boys Batting","bowlingTeam":"Old Boys Bowling","target":"560","total":"400","wickets":"5","ballsRemaining":"63","batsman1":"Batsman Old Boys 1","runs1":"30","batsman2":"Batsman Old Boys 2","runs2":"22"}
