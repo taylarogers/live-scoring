@@ -121,11 +121,17 @@ h4 {
     }
 
     input[type="text"] {
-        height: 40px;
+        height: 20px;
         width: 250px;
     }
 
     input[type="number"] {
+        height: 20px;
+        width: 250px;
+    }
+
+    input[type="password"] {
+        height: 20px;
         width: 250px;
     }
 
@@ -160,13 +166,13 @@ h4 {
 
     #Field {
         height: 40px;
-        width: 200px;
-        font-size: larger;
+        width: 150px;
+        font-size: medium;
     }
 
     #UpdateButton {
         height: 40px;
-        width: 80px;
+        width: 120px;
         font-size: larger;
     }
 }
