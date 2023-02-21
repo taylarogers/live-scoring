@@ -139,11 +139,11 @@ h4 {
     }
 
     .header {
-        font-size: large;
+        font-size: 30px;
     }
 
     .secondary-header {
-        font-size: large;
+        font-size: 23px;
     }
 
     p {
@@ -159,7 +159,7 @@ h4 {
     }
 
     h4 {
-        font-size: 17px;
+        font-size: 23px;
     }
 
     img {
